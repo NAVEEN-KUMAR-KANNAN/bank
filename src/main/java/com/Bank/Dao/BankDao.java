@@ -24,4 +24,8 @@ public class BankDao {
 	public List<Bank> gets() {
 		return br.findAll();
 	}
+	public List<Bank> getAll() {
+		// TODO Auto-generated method stub
+		return br.findAll();
+	}
 }

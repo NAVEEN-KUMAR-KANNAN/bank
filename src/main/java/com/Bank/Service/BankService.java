@@ -32,4 +32,8 @@ public class BankService {
 		}
 		return bank;
 	}
+	public List<Bank> getAll() {
+		// TODO Auto-generated method stub
+		return bd.getAll();
+	}
 }

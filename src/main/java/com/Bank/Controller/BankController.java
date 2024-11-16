@@ -36,6 +36,11 @@ public class BankController {
 	public Bank getName(@PathVariable String a) {
 		return bs.getName(a);
 	}
+	@GetMapping("/getAll")
+	public List<Bank> getAll() {
+		return bs.getAll();
+	}
+	
 	
 	
 }
