@@ -64,7 +64,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>bank</finalName>
+		<finalName>bankApp</finalName>
 	</build>
 
 </project>

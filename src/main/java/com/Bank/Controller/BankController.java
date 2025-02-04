@@ -29,7 +29,7 @@ public class BankController {
 	}
 	@GetMapping(value="/getbyIfsc/{ifsc}")
 	public String gets(@PathVariable String ifsc){
-		return bs.gets(ifsc);
+		return bs.gets(ifsc +"this is ifsc code");
 	}
 	
 	@GetMapping(value="/getBankName/{a}")
